@@ -1,0 +1,6 @@
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/bin/Debug/MyPayProject.exe
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/bin/Debug/MyPayProject.pdb
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/obj/Debug/MyPayProject.csproj.CoreCompileInputs.cache
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/obj/Debug/MyPayProject.exe
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/obj/Debug/MyPayProject.pdb
+/Users/sunrenfei/Projects/MyPaySolution/MyPayProject/bin/Debug/MyPayProject.xml

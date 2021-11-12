@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyPayProject</name>
+    </assembly>
+    <members>
+        <member name="M:MyPayProject.TaxCalculator.CalculateResidentialTax(System.Double)">
+            <summary>
+            takes a double of residental gross as an input, and generates different levels of Tax of residents
+            </summary>
+            <param name="residentialGross">the double of residental gross to be used to generate the taxs </param>
+            <returns>different levels of tax of residents</returns>
+        </member>
+        <member name="M:MyPayProject.TaxCalculator.CalculateWorkingHolidayTax(System.Double,System.Double)">
+            <summary>
+            takes a double of working holiday gross and double of yearToDate as inputs, and generates different levels of Tax of working hodiday staffs
+            </summary>
+            <param name="residentialGross">the double of working holiday gross to be used to generate the taxs </param>
+            <param name="yearToDate">takes the number of how much the working holiday staff been oaif during the financial year to be used to generate the taxs </param>
+            <returns>different levels of tax of working holiday taxs</returns>
+        </member>
+        <member name="P:MyPayProject.WorkingHolidayPayRecord.Tax">
+            <summary>
+            override abstract property Tax;
+            </summary>
+        </member>
+        <member name="F:MyPayProject.WorkingHolidayPayRecord.calculateWorkingHolidayTax">
+            <summary>
+            override vitual property GetDetail ;
+            </summary>
+        </member>
+        <member name="M:MyPayProject.CsvLmporter.ImportPayRecords(System.String)">
+            <summary>
+            Import pay information from a csv file and generate a list of PayRecord objects
+            </summary>
+            <param name="filePath">path of the input csv file </param>
+            <returns>A list of PayRecord objects</returns>
+        </member>
+        <member name="M:MyPayProject.PayRecordWriter.write(System.Collections.Generic.List{MyPayProject.PayRecord},System.String,System.Boolean)">
+            <summary>
+            Write information from list of PayRecord objects to a csv file
+            </summary>
+            <param name="listOfRecord"> the list of PayRecord objects</param>
+            <param name="filePath"> csv file path</param>
+            <param name="showRecord">Whether write to console or not</param>
+            <returns>file path of the csv file</returns>
+        </member>
+    </members>
+</doc>

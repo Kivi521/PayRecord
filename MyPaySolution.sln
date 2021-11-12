@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPayProject", "MyPayProject\MyPayProject.csproj", "{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPayNUnitTestProject", "MyPayNUnitTestProject\MyPayNUnitTestProject.csproj", "{433AFCCD-70D1-4BD0-9B99-36D1F004A033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}.Debug|anycpu.Build.0 = Debug|anycpu
+		{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}.Release|anycpu.ActiveCfg = Release|anycpu
+		{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}.Release|anycpu.Build.0 = Release|anycpu
+		{433AFCCD-70D1-4BD0-9B99-36D1F004A033}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{433AFCCD-70D1-4BD0-9B99-36D1F004A033}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{433AFCCD-70D1-4BD0-9B99-36D1F004A033}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{433AFCCD-70D1-4BD0-9B99-36D1F004A033}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8920AC52-AD86-43D0-9F2E-239095CCC178}
+	EndGlobalSection
+EndGlobal

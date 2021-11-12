@@ -1,0 +1,12 @@
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/MyPayNUnitTestProject.dll
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/MyPayNUnitTestProject.pdb
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/MyPayProject.exe
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/nunit.framework.dll
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/MyPayProject.pdb
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/nunit.framework.pdb
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/bin/Debug/nunit.framework.xml
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/obj/Debug/MyPayNUnitTestProject.csproj.AssemblyReference.cache
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/obj/Debug/MyPayNUnitTestProject.csproj.CoreCompileInputs.cache
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/obj/Debug/MyPayNUnitTestProject.csproj.CopyComplete
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/obj/Debug/MyPayNUnitTestProject.dll
+/Users/sunrenfei/Projects/MyPaySolution/MyPayNUnitTestProject/obj/Debug/MyPayNUnitTestProject.pdb

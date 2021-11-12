@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{1A0A9088-5C8B-4531-955E-1A1EC83FCA71}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyPayProject</RootNamespace>
+    <AssemblyName>MyPayProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\MyPayProject.xml</DocumentationFile>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaxCalculator.cs" />
+    <Compile Include="PayRecord.cs" />
+    <Compile Include="ResidentPayRecord.cs" />
+    <Compile Include="WorkingHolidayPayRecord.cs" />
+    <Compile Include="CsvLmporter.cs" />
+    <Compile Include="PayRecordWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Import\" />
+    <Folder Include="Export\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Import\employee-payroll-data.csv" />
+    <None Include="MyPayProject.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
